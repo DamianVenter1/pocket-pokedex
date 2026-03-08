@@ -1,0 +1,58 @@
+# Dart/Flutter
+.dart_tool/
+.packages
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# IDE
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# FVM
+.fvm/flutter_sdk/
+!.fvm/fvm_config.json
+
+# Environment/Secrets
+.env
+.env.*
+config/.env.*
+*.jks
+*.keystore
+key.properties
+GoogleService-Info.plist
+
+# Build outputs
+build/
+*.aab
+*.ipa
+*.app
+
+# iOS specific
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Runner.xcworkspace/xcshareddata/
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+
+# Android specific
+android/.gradle/
+android/local.properties
+android/*.iml
+android/app/debug/
+android/app/profile/
+android/app/release/
+
+# Coverage
+coverage/
+*.lcov
+
+# Misc
+.pub-cache/
+.pub/
+doc/api/
+*.log
